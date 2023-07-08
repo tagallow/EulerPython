@@ -1,8 +1,7 @@
-import problem1
+import problem3
 
 def main():
-    print("Hello World!")
-    problem1.solve()
+    problem3.solve()
 
 if __name__ == "__main__":
     main()
