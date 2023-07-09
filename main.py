@@ -1,7 +1,7 @@
-import problem6 as currProblem
+import problem7 as currentProblem
 
 def main():
-    currProblem.solve()
+    currentProblem.solve()
 
 if __name__ == "__main__":
     main()

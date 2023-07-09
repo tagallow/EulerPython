@@ -21,3 +21,12 @@ def isPrime(n):
             return False    
     return True
 
+def SieveEratosthenes(max):
+    primes = []
+    for i in range(2, max + 1):
+        primes.append(i)
+    for i in range(0, len(primes)):
+        if primes[i] != 0:
+            for j in range(i + primes[i], len(primes), primes[i]):
+                primes[j] = 0
+    return primes
