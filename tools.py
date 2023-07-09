@@ -21,7 +21,7 @@ def isPrime(n):
             return False    
     return True
 
-def SieveEratosthenes(max):
+def prime_sieve(max):
     primes = []
     for i in range(2, max + 1):
         primes.append(i)
