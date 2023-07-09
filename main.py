@@ -1,4 +1,4 @@
-import problem10 as currentProblem
+import problem14 as currentProblem
 import time
 
 def main():

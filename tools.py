@@ -1,6 +1,5 @@
 # Description: This file contains functions that are used in other files.
 
-# getPrimes: returns a list of all prime numbers up to n
 def getPrimes(n):
     primes = []
     for i in range(2, n):
@@ -8,7 +7,6 @@ def getPrimes(n):
             primes.append(i)
     return primes
 
-# isPrime: returns true if n is prime, false otherwise
 def isPrime(n):
     if n < 2:
         return False
@@ -18,7 +16,7 @@ def isPrime(n):
         return False
     for i in range(3, int(n**0.5)+1, 2):   # only odd numbers
         if n%i == 0:
-            return False    
+            return False
     return True
 
 def prime_sieve(max):
